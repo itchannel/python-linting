@@ -9,8 +9,7 @@ RUN pip install --upgrade --no-cache-dir \
   flake8-comprehensions \
   flake8-import-order
 
-RUN mkdir ~/.config/
-COPY flake8 ~/.config/flake8
+COPY flake8 /flake8
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
