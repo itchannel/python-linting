@@ -2,4 +2,4 @@
 
 set -eu
 
-flake8 --config=~/.config/flake8 && echo "Your code looks perfect ✨✨"
+flake8 --config=/flake8 && echo "Your code looks perfect ✨✨"
