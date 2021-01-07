@@ -1,5 +1,6 @@
 [flake8]
 import-order-style=smarkets
+max-line-length = 160
 ignore =
   B305,  # It's a py2-only non-issue.
   W503,  # Line jump before binary operator.
