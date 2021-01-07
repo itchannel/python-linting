@@ -3,3 +3,4 @@ import-order-style=smarkets
 ignore =
   B305,  # It's a py2-only non-issue.
   W503,  # Line jump before binary operator.
+  E501,  # Ignore long lines
